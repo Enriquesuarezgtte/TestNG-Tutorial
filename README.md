@@ -2,15 +2,15 @@
 
 ## How do I get TestNG plugin for eclipse?
 
--Go to [TestNg-Eclipse](https://testng.org/doc/eclipse.html#eclipse-installation) and follow the instructions to get it.
+- Go to [TestNg-Eclipse](https://testng.org/doc/eclipse.html#eclipse-installation) and follow the instructions to get it.
 
 ## How do I run tests with TestNG?
 
--You need to have @Test annotation followed by method.
+- You need to have @Test annotation followed by method.
 
 ## May I define a class for every test?
 
--No, you can define multiple tests from single class.
+- No, you can define multiple tests from single class.
 
 ## Hierarchy?
 
