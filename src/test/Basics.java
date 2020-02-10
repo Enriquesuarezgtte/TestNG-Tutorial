@@ -1,7 +1,6 @@
 package test;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
 
 public class Basics {
 	
@@ -14,5 +13,5 @@ public class Basics {
 	public void Demo2() {
 		System.out.println("hello again");
 	}
-	
+
 }
