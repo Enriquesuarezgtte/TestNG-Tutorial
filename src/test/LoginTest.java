@@ -6,13 +6,11 @@ public class LoginTest {
 	
 	@Test
 	public void webLoginCarLoan() {
-		//selenium
 		System.out.println("weblogin");
 	}
 	
 	@Test
 	public void mobileLoginCarLoan(){
-		//Appium.
 		System.out.println("mobileLogin");
 
 	}
