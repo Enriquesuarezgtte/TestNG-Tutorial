@@ -14,4 +14,9 @@ public class Basics {
 		System.out.println("hello again");
 	}
 
+	@Test
+	public void NoDemo2() {
+		System.out.println("hello again");
+	}
+
 }
