@@ -12,14 +12,11 @@ public class LoginTest {
 	@Test
 	public void mobileLoginCarLoan(){
 		System.out.println("mobileLogin");
-
 	}
 	
 	@Test
 	public void loginAPICarLoan() {
-		// Rest API Automation
 		System.out.println("APIlogin");
-
 	}
 
 }
