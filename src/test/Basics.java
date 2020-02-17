@@ -62,7 +62,7 @@ public class Basics {
     System.out.println("After Method");
   }
 
-  @Test
+  @Test(groups= {"Smoke"})
   public void NoDemo2() {
     System.out.println("hello again");
   }
