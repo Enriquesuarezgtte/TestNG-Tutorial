@@ -17,21 +17,20 @@ public class Basics {
   public void beforeClass() {
     System.out.println("Before class ");
   }
-  
+
   @AfterClass
   public void afterClass() {
     System.out.println("After class ");
   }
-
-  @Test
+  
+  @Parameters({ "URLTest" })
   public void Demo() {
     System.out.println("Hello world");
   }
 
-  @Parameters({"URLTest"})
-  @Test
+  @Parameters({ "URLTest" })
   public void Demo2(String URL) {
-    System.out.println("hello again: "+ URL);
+    System.out.println("hello again: " + URL);
   }
 
   @BeforeTest
@@ -54,6 +53,7 @@ public class Basics {
     System.out.println("After Test");
   }
 
+  @BeforeMethod
   public void beforeMethod() {
     System.out.println("Before Method");
   }
@@ -63,7 +63,7 @@ public class Basics {
     System.out.println("After Method");
   }
 
-  @Test(groups= {"Smoke"} )
+  @Test
   public void NoDemo2() {
     System.out.println("hello again");
   }
