@@ -24,12 +24,14 @@ public class Basics {
   }
   
   @Parameters({ "URLTest" })
-  public void Demo() {
+  @Test
+  public void demo() {
     System.out.println("Hello world");
   }
-
+  
+  @Test
   @Parameters({ "URLTest" })
-  public void Demo2(String URL) {
+  public void demo2(String URL) {
     System.out.println("hello again: " + URL);
   }
 
@@ -64,7 +66,7 @@ public class Basics {
   }
 
   @Test
-  public void NoDemo2() {
+  public void noDemo2() {
     System.out.println("hello again");
   }
 

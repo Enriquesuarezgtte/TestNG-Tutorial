@@ -6,7 +6,7 @@
 		<classes>
 			<class name="test.Basics">
 				<methods>
-					<include name="Demo.*"></include>
+					<include name="demo.*"></include>
 				</methods>
 			</class>
 		</classes>

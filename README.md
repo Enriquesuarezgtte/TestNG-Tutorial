@@ -2,7 +2,7 @@
 
 ## How do I get TestNG plugin for eclipse?
 
-- Go to [TestNg-Eclipse](https://testng.org/doc/eclipse.html#eclipse-installation) and follow the instructions to get it.
+- Go to [TestNG-Eclipse](https://testng.org/doc/eclipse.html#eclipse-installation) and follow the instructions to get it.
 
 ## How do I run tests with TestNG?
 
