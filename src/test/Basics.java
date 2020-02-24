@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Basics {
@@ -16,20 +17,22 @@ public class Basics {
   public void beforeClass() {
     System.out.println("Before class ");
   }
-  
+
   @AfterClass
   public void afterClass() {
     System.out.println("After class ");
   }
-
+  
+  @Parameters({ "URLTest" })
   @Test
-  public void Demo() {
+  public void demo() {
     System.out.println("Hello world");
   }
-
+  
   @Test
-  public void Demo2() {
-    System.out.println("hello again");
+  @Parameters({ "URLTest" })
+  public void demo2(String URL) {
+    System.out.println("hello again: " + URL);
   }
 
   @BeforeTest
@@ -62,8 +65,8 @@ public class Basics {
     System.out.println("After Method");
   }
 
-  @Test(groups= {"Smoke"})
-  public void NoDemo2() {
+  @Test
+  public void noDemo2() {
     System.out.println("hello again");
   }
 
