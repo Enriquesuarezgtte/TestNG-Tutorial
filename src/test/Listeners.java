@@ -8,11 +8,12 @@ public class Listeners implements ITestListener{
 
   @Override
   public void onTestStart(ITestResult result) {
+    System.out.println("*** -- Test started -- ***");
   }
 
   @Override
   public void onTestSuccess(ITestResult result) {
-    System.out.println("Test success");
+    System.out.println("*** -- Test success -- ***");
   }
 
   @Override
@@ -37,6 +38,7 @@ public class Listeners implements ITestListener{
 
   @Override
   public void onFinish(ITestContext context) {
+    System.out.println("*** -- Test finished -- ***");
   }
 
 }
